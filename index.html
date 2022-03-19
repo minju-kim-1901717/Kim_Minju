@@ -1,24 +1,106 @@
-<html>
-    <head>
-        <title> Model Kim Minju</title>
-        <style>
-            
-            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
-            
-            p { display: block; width: 1000px;
-                margin-left: auto; margin-right: auto; margin-top: 100px;
-                text-align: center;
-                font-family: 'IBM Plex Sans KR', sans-serif;
-                font-size: 20px;
-            }
-            
-        </style>
-    </head>
-    <body>
-       <div style=" width: 1000px; display: block;  margin-left: auto; margin-right: auto;">
-       
-        <p style="background-color: #ecd4d4;">스킨케어</p>
-        <iframe src="https://player.vimeo.com/video/238926085" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            color: #555;
+            background: #E9D6D0;
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;}
+
+        h1 {
+            padding: 0px 0;
+            font-weight: 200;
+            text-align: center;
+            font-family: 'Sacramento', cursive;
+            font-size: 50px;}
+
+        p {
+            /* margin: 0 0 20px;*/
+            line-height: 1.5;
+            display : block; margin : auto;}
+
+        .main {
+            min-width: 320px;
+            max-width: 1000px;
+            padding: 50px;
+            margin: 0 auto;
+            background: #ffffff;}
+
+        section {
+            display: none;
+            padding: 20px 0 0;
+            border-top: 1px solid #ddd;}
+
+        /*라디오버튼 숨김*/
+          input {
+              display: none;}
+
+        label {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #D9B4A7;
+            border: 1px solid transparent;}
+
+        label:hover {
+            color: #BF7373;
+            cursor: pointer;}
+        
+         img { display : block; margin : auto;}
+
+        /*input 클릭시, label 스타일*/
+        input:checked + label {
+              color: #400101;
+              border: 1px solid #ddd;
+              border-top: 2px solid #730202;
+              border-bottom: 1px solid #ffffff;}
+
+        #tab1:checked ~ #content1,
+        #tab2:checked ~ #content2,
+        #tab3:checked ~ #content3,
+        #tab4:checked ~ #content4 {
+            display: block;}
+        
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+    </style>
+    <title>Model 김민주</title>
+</head>
+<body>
+<h1>- Kim Min Ju -</h1>
+
+<div class="main">
+    <input id="tab1" type="radio" name="tabs" checked> <!--디폴트 메뉴-->
+    <label for="tab1">Photo</label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">스킨케어 바이럴</label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">뷰티 바이럴</label>
+
+    <input id="tab4" type="radio" name="tabs">
+    <label for="tab4">기타 바이럴</label>
+
+    <section id="content1">
+        <p> 
+           <img src="https://postfiles.pstatic.net/MjAyMjAzMTlfMTE3/MDAxNjQ3NjkwOTkwNjk1.WRKsNYbvUcNcmlz9GEgl1QnVTVldNoRFFEFw_OMIhp4g.734SrTSFpCR1NFU0V_j97jZLGXr8ebNhqyWmo744mTkg.JPEG.gkswldms0518/%EA%B9%80%EB%AF%BC%EC%A3%BC_%EC%BB%B4%EC%B9%B4%EB%93%9C_1.JPG?type=w773" alt="">
+           <img src="https://postfiles.pstatic.net/MjAyMjAzMTlfMzgg/MDAxNjQ3NjkwOTkwNzM5.30ubPB_7RNpuTzFsSMQl029M3bNStBa2tMo68Dm3tpAg.rGDkCPM4yMVcypaI-Y5OA5Px2iiakZnVB0EXQR5QevQg.JPEG.gkswldms0518/%EA%B9%80%EB%AF%BC%EC%A3%BC_%EC%BB%B4%EC%B9%B4%EB%93%9C_2.JPG?type=w773" alt="">
+           <img src="https://postfiles.pstatic.net/MjAyMjAzMTlfMSAg/MDAxNjQ3NjkwOTkwNzMy.SCdXSJSSOcWfQD1FmqH3xz839i2uVaFToz-dxZvYaucg.849OsPT8or-kVorPz2Qpczc60g-DUsWZtPmky4Xac5kg.JPEG.gkswldms0518/%EA%B9%80%EB%AF%BC%EC%A3%BC_%EC%BB%B4%EC%B9%B4%EB%93%9C_3.JPG?type=w773" alt="">
+           <img src="https://postfiles.pstatic.net/MjAyMjAzMTlfMjYg/MDAxNjQ3NjkxMTgwNTk0.xTBf9WeDI1H3GZFHDP6NJP0ZpwX8h_EpydMWtYknCYEg.9Z0gjmwm1IJZWjDJ0Ht7BgKKIL1Hv0MQF5Iea6usEAIg.JPEG.gkswldms0518/KakaoTalk_20201231_020523617_04.jpg?type=w773" alt="">
+           <img src="https://postfiles.pstatic.net/MjAyMjAzMTlfNjEg/MDAxNjQ3NjkxMTgwMzA2.BOpZgA1pbAM9YQ6ixcUTKlMqKEYgJimnbyWykGrjl54g.o122d37AQbv_Ijt-9Cl9ermxPWq0PE3Y6JunCGcerHAg.JPEG.gkswldms0518/KakaoTalk_20201231_020523617_05.jpg?type=w773" alt="">
+           <img src="https://postfiles.pstatic.net/MjAyMjAzMTlfMTI2/MDAxNjQ3NjkxMTgxMDg4.9Qiat8Fe6tmFzzXcylf8CBMjEyaQrgJGH9nXUvAU1u4g.2mF77inq4mwBhhh_Xfj0eAXMcE4IysziPDmbec73F90g.JPEG.gkswldms0518/KakaoTalk_20201231_020523617_07.jpg?type=w773" alt="">
+           <img src="https://postfiles.pstatic.net/MjAyMjAzMTlfMTg0/MDAxNjQ3NjkxMTgwMzY1.zyReNQjrpN0GjovbVPXAE1unev4oIue59rfHig7G5_Ag.g-BNT44sH0_KMiiT5VbjwhvU6gPbpckUMiGgcO3tk2og.JPEG.gkswldms0518/KakaoTalk_20201231_020523617_12.jpg?type=w773" alt="">
+        </p>
+    </section>
+
+    <section id="content2">
+        <p>
+            <iframe src="https://player.vimeo.com/video/238926085" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
         <iframe src="https://player.vimeo.com/video/240810042" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
         <iframe src="https://player.vimeo.com/video/239644449" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
         <iframe src="https://player.vimeo.com/video/240810042" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
@@ -26,16 +108,21 @@
         <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fshieldstudio%2Fvideos%2F1339407876188503%2F&show_text=false&width=476&t=0" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
         <iframe width="300px" height="315" src="https://www.youtube.com/embed/TXono748HPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="300px" height="315" src="https://www.youtube.com/embed/8MCCDYspCKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        <p style="background-color: #ccdbe2;">뷰티</p>
-        <iframe src="https://player.vimeo.com/video/245169400" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
+        </p>
+    </section>
+
+    <section id="content3">
+        <p>
+             <iframe src="https://player.vimeo.com/video/245169400" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
         <iframe src="https://player.vimeo.com/video/249490969" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
         <iframe width="300px" height="315" src="https://www.youtube.com/embed/PQfOBghgotY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="300px" height="315" src="https://www.youtube.com/embed/MlVKVdplarY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        
-        <p style="background-color: #c9cbe0;">기타</p>
-        <iframe src="https://player.vimeo.com/video/244991882" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
+        </p>
+    </section>
+
+    <section id="content4">
+        <p>
+                  <iframe src="https://player.vimeo.com/video/244991882" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
         <iframe src="https://player.vimeo.com/video/250734025" width="300px" height="300px" frameborder="0" allowfullscreen> </iframe>
         <iframe width="300px" height="315" src="https://www.youtube.com/embed/E7xVvS-YReo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="300px" height="315" src="https://www.youtube.com/embed/tOfyWU_ZDeA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -45,9 +132,9 @@
         <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fbucheonjayumarket%2Fvideos%2F308008559853418%2F&show_text=false&width=560&t=0" width="450" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
         <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fbucheonjayumarket%2Fvideos%2F779200085747133%2F&show_text=false&width=560&t=0" width="450" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
         <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fbucheonjayumarket%2Fvideos%2F734436150262176%2F&show_text=false&width=560&t=0" width="450" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-        
-        
-        
-        </div>
-    </body>
+        </p>
+    </section>
+
+</div>
+</body>
 </html>
